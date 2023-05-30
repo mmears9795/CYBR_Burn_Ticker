@@ -3,7 +3,7 @@ import { Client, Intents, Guild, BitField } from 'discord.js';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
 
-const botToken = process.env.BOT_TOKEN;
+const botToken = process.env.DISCORD_BOT_TOKEN;
 
 const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
